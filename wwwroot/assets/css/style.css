@@ -1459,7 +1459,7 @@ section {
   color: #fff;
 }
 
-#footer .footer-top .social-links a {
+.social-links a {
   font-size: 18px;
   display: inline-block;
   background: #292929;
@@ -1474,7 +1474,7 @@ section {
   transition: 0.3s;
 }
 
-#footer .footer-top .social-links a:hover {
+.social-links a:hover {
   background: #ffc451;
   color: #151515;
   text-decoration: none;
