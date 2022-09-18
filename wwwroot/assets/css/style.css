@@ -1564,3 +1564,26 @@ section {
 .icon-box img {
     border: none;
 }
+
+.culture-picker select {
+    font-size: 18px;
+    display: inline-block;
+    background: #292929;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+    margin-left: 20px;
+}
+
+.culture-picker select:hover {
+    background: #ffc451;
+    color: #151515;
+    text-decoration: none;
+}
