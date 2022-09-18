@@ -306,13 +306,19 @@ h6 {
 }
 
 @media (max-width: 991px) {
-  .mobile-nav-toggle {
-    display: block;
-  }
+    .mobile-nav-toggle {
+        display: block;
+    }
 
-  .navbar ul {
-    display: none;
-  }
+    .navbar ul {
+        display: none;
+    }
+
+    .culture-picker select {
+        background: none !important;
+        color: #292929 !important;
+        border: solid 1px !important;
+    }
 }
 
 .navbar-mobile {
@@ -1563,4 +1569,23 @@ section {
 
 .icon-box img {
     border: none;
+}
+
+.culture-picker select {
+    font-size: 18px;
+    display: inline-block;
+    background: #292929;
+    color: #fff;
+    line-height: 1;
+    padding: 0px 5px 5px;
+    border-radius: 4px;
+    border: none;
+    margin-left: 20px;
+    height: 36px;
+}
+
+.culture-picker select:hover {
+    background: #ffc451;
+    color: #151515;
+    text-decoration: none;
 }

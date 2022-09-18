@@ -1,0 +1,16 @@
+﻿@model Manipulator.ViewComponents.CulturePickerViewModel
+
+<div class="culture-picker">
+    <form method="GET">
+        <div>
+            <select id="culture-picker" name="culture" onchange="this.parentElement.parentElement.submit();">
+                @foreach (var culture in Model.SupportedCultures)
+                {
+                    <option value="@culture.Name" selected="@(Model.CurrentUICulture.Name == culture.Name)">
+                        <span>@Model.ToFlagEmoji(culture.Name)</span>
+                    </option>
+                }
+            </select>
+        </div>
+    </form>
+</div>
