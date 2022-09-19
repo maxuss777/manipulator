@@ -1,47 +1,50 @@
-﻿<section id="services" class="services">
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+
+<section id="services" class="services">
     <div class="container" data-aos="fade-up">
         <div class="section-title">
-            <h2>Техніка</h2>
-            <p>Наша Техніка</p>
+            <h2>@Localizer["Equipment"]</h2>
+            <p>@Localizer["Our Equipment"]</p>
         </div>
         <div class="row">
             <div class="col-lg-4 col-md-6 align-items-stretch p-2" data-aos="zoom-in" data-aos-delay="200">
                 <div class="icon-box">
                     <div class=""><img class="img-thumbnail" src="/assets/img/tech/38010c98510706ae2a04e93f96ec2d06.jpg" alt="3-5 тонн"></div>
-                    <h4><a href="">Маніпулятор 3-5 тонн</a></h4>
-                    <p>Вантажопідйомність борту - 5 тонн</p>
-                    <p>Довжина кузова - 6 метрів</p>
+                    <h4><a href="">@Localizer["Manipulator title", "3-5"]</a></h4>
+                    <p>@Localizer["The carrying capacity of the board is", "3-5"]</p>
+                    <p>@Localizer["Body length", "6"]</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 align-items-stretch p-2" data-aos="zoom-in" data-aos-delay="200">
                 <div class="icon-box">
                     <div class=""><img class="img-thumbnail" src="/assets/img/tech/ea5d142394a2dade91463c837f585952.jpg" alt="5-10 тонн"></div>
-                    <h4><a href="">Маніпулятор 5-10 тонн</a></h4>
-                    <p>Вантажопідйомність борту - 5 тонн</p>
-                    <p>Довжина кузова - 6 метрів</p>
+                    <h4><a href="">@Localizer["Manipulator title", "5-10"]</a></h4>
+                    <p>@Localizer["The carrying capacity of the board is", "5"]</p>
+                    <p>@Localizer["Body length", "6"]</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 align-items-stretch p-2" data-aos="zoom-in" data-aos-delay="200">
                 <div class="icon-box">
                     <div class=""><img class="img-thumbnail" src="/assets/img/tech/0d554ddc3bd9de4235558798257bbf3c.jpg" alt="7-10 тонн"></div>
-                    <h4><a href="">Маніпулятор 7-10 тонн</a></h4>
-                    <p>Вантажопідйомність борту - 5 тонн</p>
-                    <p>Довжина кузова - 6 метрів</p>
+                    <h4><a href="">@Localizer["Manipulator title", "7-10"]</a></h4>
+                    <p>@Localizer["The carrying capacity of the board is", "5"]</p>
+                    <p>@Localizer["Body length", "6"]</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 align-items-stretch p-2" data-aos="zoom-in" data-aos-delay="200">
                 <div class="icon-box">
                     <div class=""><img class="img-thumbnail" src="/assets/img/tech/e7ef05ad78893842e21b44ce4c7da244.jpg" alt="10-12 тонн"></div>
-                    <h4><a href="">Маніпулятор 10-12 тонн</a></h4>
-                    <p>Вантажопідйомність борту - 5 тонн</p>
-                    <p>Довжина кузова - 6 метрів</p>
+                    <h4><a href="">@Localizer["Manipulator title", "10-12"]</a></h4>
+                    <p>@Localizer["The carrying capacity of the board is", "5"]</p>
+                    <p>@Localizer["Body length", "6"]</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 align-items-stretch p-2" data-aos="zoom-in" data-aos-delay="200">
                 <div class="icon-box">
                     <div class=""><img class="img-thumbnail" src="/assets/img/tech/70a0c3fbe33a9356bc6b21f2c8b8e394.jpg" alt="Міні Трактор"></div>
-                    <h4><a href="">Міні Трактор</a></h4>
-                    <p>Вантажопідйомність борту - 5 тонн</p>
+                    <h4><a href="">@Localizer["Mini Tractor"]</a></h4>
+                    <p>@Localizer["Digging depth", "3"]</p>
                 </div>
             </div>
         </div>

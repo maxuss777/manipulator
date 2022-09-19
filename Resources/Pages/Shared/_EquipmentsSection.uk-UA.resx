@@ -117,40 +117,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="About Us" xml:space="preserve">
-    <value>About Us</value>
+  <data name="Body length" xml:space="preserve">
+    <value>Довжина кузова - {0} метрів</value>
   </data>
-  <data name="Any form of payment" xml:space="preserve">
-    <value>Any form of payment</value>
-  </data>
-  <data name="Contacts" xml:space="preserve">
-    <value>Contacts</value>
+  <data name="Digging depth" xml:space="preserve">
+    <value>Глибина копки {0} метра</value>
   </data>
   <data name="Equipment" xml:space="preserve">
-    <value>Equipment</value>
+    <value>Техніка</value>
   </data>
-  <data name="Flexible discounts system" xml:space="preserve">
-    <value>Flexible discounts system</value>
+  <data name="Manipulator title" xml:space="preserve">
+    <value>Маніпулятор {0} тонн</value>
   </data>
-  <data name="High qualified staff" xml:space="preserve">
-    <value>High qualified staff</value>
+  <data name="Mini Tractor" xml:space="preserve">
+    <value>Міні Трактор</value>
   </data>
-  <data name="Home" xml:space="preserve">
-    <value>Home</value>
+  <data name="Our Equipment" xml:space="preserve">
+    <value>Наша Техніка</value>
   </data>
-  <data name="Looking for heavy equipment in Kharkiv?" xml:space="preserve">
-    <value>Looking for heavy equipment in Kharkiv?</value>
-  </data>
-  <data name="Services" xml:space="preserve">
-    <value>Services</value>
-  </data>
-  <data name="Smart solutions with" xml:space="preserve">
-    <value>Smart solutions with</value>
-  </data>
-  <data name="We are a team of talented carriers" xml:space="preserve">
-    <value>We are a team of talented carriers.</value>
-  </data>
-  <data name="We work without days off" xml:space="preserve">
-    <value>We work without days off</value>
+  <data name="The carrying capacity of the board is" xml:space="preserve">
+    <value>Вантажопідйомність борту - {0} тонн</value>
   </data>
 </root>

@@ -120,16 +120,37 @@
   <data name="About Us" xml:space="preserve">
     <value>Прос нас</value>
   </data>
+  <data name="Any form of payment" xml:space="preserve">
+    <value>Будь-яка форма оплати</value>
+  </data>
   <data name="Contacts" xml:space="preserve">
     <value>Контакти</value>
   </data>
   <data name="Equipment" xml:space="preserve">
     <value>Техніка</value>
   </data>
+  <data name="Flexible discounts system" xml:space="preserve">
+    <value>Гнучка система знижок</value>
+  </data>
+  <data name="High qualified staff" xml:space="preserve">
+    <value>Кваліфікований персонал</value>
+  </data>
   <data name="Home" xml:space="preserve">
     <value>Головна</value>
   </data>
+  <data name="Looking for heavy equipment in Kharkiv?" xml:space="preserve">
+    <value>У пошуках важкої техніки у Харкові?</value>
+  </data>
   <data name="Services" xml:space="preserve">
     <value>Послуги</value>
+  </data>
+  <data name="Smart solutions with" xml:space="preserve">
+    <value>Розумні рішення з</value>
+  </data>
+  <data name="We are a team of talented carriers" xml:space="preserve">
+    <value>Ми команда талановитих перевезників.</value>
+  </data>
+  <data name="We work without days off" xml:space="preserve">
+    <value>Працюємо без вихідних</value>
   </data>
 </root>

@@ -117,40 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="About Us" xml:space="preserve">
-    <value>About Us</value>
+  <data name="Accuracy in work. You can easily cope with any tasks. If necessary, experienced drivers of our company will provide you with assistance." xml:space="preserve">
+    <value>Точність у роботі. Ви легко впораєтеся з будь-якими завданнями. При необхідності допомогу Вам нададуть досвідчені водії нашої компанії.</value>
   </data>
-  <data name="Any form of payment" xml:space="preserve">
-    <value>Any form of payment</value>
-  </data>
-  <data name="Contacts" xml:space="preserve">
-    <value>Contacts</value>
-  </data>
-  <data name="Equipment" xml:space="preserve">
-    <value>Equipment</value>
-  </data>
-  <data name="Flexible discounts system" xml:space="preserve">
-    <value>Flexible discounts system</value>
-  </data>
-  <data name="High qualified staff" xml:space="preserve">
-    <value>High qualified staff</value>
-  </data>
-  <data name="Home" xml:space="preserve">
-    <value>Home</value>
+  <data name="Ease of work. The proposed manipulators do not require complex installation. Contact us if you want all tasks to be solved quickly and efficiently." xml:space="preserve">
+    <value>Простота роботи. Пропоновані маніпулятори не потребують складної установки. Зверніться до нас, якщо хочете, щоб усі завдання вирішувалися оперативно та якісно.</value>
   </data>
   <data name="Looking for heavy equipment in Kharkiv?" xml:space="preserve">
-    <value>Looking for heavy equipment in Kharkiv?</value>
+    <value>У пошуках важкої техніки у Харкові?</value>
   </data>
-  <data name="Services" xml:space="preserve">
-    <value>Services</value>
+  <data name="Renting equipment with a manipulator from our company is profitable and convenient. Renting this equipment will help you save money and time." xml:space="preserve">
+    <value>Оренда техніки з маніпулятором від нашої компанії – це вигідно та зручно. Оренда даної техніки допоможе Вам заощадити гроші та час.</value>
   </data>
-  <data name="Smart solutions with" xml:space="preserve">
-    <value>Smart solutions with</value>
+  <data name="Safety of use. The machine with a manipulator, which can be rented now, is completely ready for operation. We regularly carry out technical maintenance of the entire fleet, protecting you from injuries." xml:space="preserve">
+    <value>Безпека використання. Машина з маніпулятором, оренда якої може бути здійснена зараз, повністю готова до експлуатації. Ми регулярно проводимо технічне обслуговування всього автопарку, оберігаючи Вас від травм.</value>
   </data>
-  <data name="We are a team of talented carriers" xml:space="preserve">
-    <value>We are a team of talented carriers.</value>
-  </data>
-  <data name="We work without days off" xml:space="preserve">
-    <value>We work without days off</value>
+  <data name="We offer popular equipment of foreign manufacturers, which is characterized by high reliability and good operation for a long time." xml:space="preserve">
+    <value>Ми пропонуємо популярну техніку іноземних виробників, яка відрізняється високою надійністю та справною роботою протягом тривалого часу.</value>
   </data>
 </root>
