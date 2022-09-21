@@ -1,5 +1,7 @@
 ﻿@page
 @model IndexPageModel
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
 
 <main id="main">
     <partial name="_AboutSection" />
@@ -8,9 +10,9 @@
     <section id="cta" class="cta">
         <div class="container" data-aos="zoom-in">
             <div class="text-center">
-                <h3>Потрібна порада?</h3>
-                <p> Задай питання професіонал та отримай відповідь у найкоротші терміни.</p>
-                <a class="cta-btn" href="#contact">Задати питання</a>
+                <h3> @Localizer["Need advice?"]</h3>
+                <p> @Localizer["Ask a question to a professional and get an answer as soon as possible"]</p>
+                <a class="cta-btn" href="#contact">@Localizer["Ask a question"]</a>
             </div>
         </div>
     </section>

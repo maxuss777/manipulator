@@ -1,8 +1,11 @@
-﻿<section id="portfolio" class="services">
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+
+<section id="portfolio" class="services">
     <div class="container" data-aos="fade-up">
         <div class="section-title">
-            <h2>Послуги</h2>
-            <p>Наші послуги</p>
+            <h2>@Localizer["Services"]</h2>
+            <p>@Localizer["Our Services"]</p>
         </div>
         <div class="row">
             <div class="col-lg-4 col-md-6 align-items-stretch p-2" data-aos="zoom-in" data-aos-delay="200">

@@ -1,6 +1,5 @@
 ﻿@using Microsoft.AspNetCore.Mvc.Localization
-@using Microsoft.Extensions.Localization
-@inject IViewLocalizer L
+@inject IViewLocalizer Localizer
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,11 +28,11 @@
             <h1 class="logo me-auto me-lg-0"><a href="/">KHTRANS<span>.</span></a></h1>
             <nav id="navbar" class="navbar order-last order-lg-0">
                 <ul>
-                    <li><a class="nav-link scrollto active" href="#hero">@L["Home"]</a></li>
-                    <li><a class="nav-link scrollto" href="#services">@L["Equipment"]</a></li>
-                    <li><a class="nav-link scrollto " href="#portfolio">@L["Services"]</a></li>
-                    <li><a class="nav-link scrollto" href="#about">@L["About Us"]</a></li>
-                    <li><a class="nav-link scrollto" href="#contact">@L["Contacts"]</a></li>
+                    <li><a class="nav-link scrollto active" href="#hero">@Localizer["Home"]</a></li>
+                    <li><a class="nav-link scrollto" href="#services">@Localizer["Equipment"]</a></li>
+                    <li><a class="nav-link scrollto " href="#portfolio">@Localizer["Services"]</a></li>
+                    <li><a class="nav-link scrollto" href="#about">@Localizer["About Us"]</a></li>
+                    <li><a class="nav-link scrollto" href="#contact">@Localizer["Contacts"]</a></li>
                     <vc:culture-picker />
                 </ul>
 
@@ -52,33 +51,33 @@
         <div class="container" data-aos="fade-up">
             <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
                 <div class="col-xl-6 col-lg-8">
-                    <h1>@L["Smart solutions with"] Kharkiv Trans<span>.</span></h1>
-                    <h2>@L["We are a team of talented carriers"]</h2>
+                    <h1>@Localizer["Smart solutions with"] Kharkiv Trans<span>.</span></h1>
+                    <h2>@Localizer["We are a team of talented carriers"]</h2>
                 </div>
             </div>
             <div class="row gy-4 mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
                 <div class="col-xl-2 col-md-4">
                     <div class="icon-box">
                         <i class="fa fa-clock"></i>
-                        <h3><a href="/">@L["We work without days off"]</a></></h3>
+                        <h3><a href="/">@Localizer["We work without days off"]</a></></h3>
                     </div>
                 </div>
                 <div class="col-xl-2 col-md-4">
                     <div class="icon-box">
                         <i class="fa fa-percent"></i>
-                        <h3><a href="/">@L["Flexible discounts system"]</a></h3>
+                        <h3><a href="/">@Localizer["Flexible discounts system"]</a></h3>
                     </div>
                 </div>
                 <div class="col-xl-2 col-md-4">
                     <div class="icon-box">
                         <i class="fa fa-child-reaching"></i>
-                        <h3><a href="/">@L["High qualified staff"]</a></h3>
+                        <h3><a href="/">@Localizer["High qualified staff"]</a></h3>
                     </div>
                 </div>
                 <div class="col-xl-2 col-md-4">
                     <div class="icon-box">
                         <i class="fa fa-money-bill-1"></i>
-                        <h3><a href="/">@L["Any form of payment"]</a></h3>
+                        <h3><a href="/">@Localizer["Any form of payment"]</a></h3>
                     </div>
                 </div>
             </div>
