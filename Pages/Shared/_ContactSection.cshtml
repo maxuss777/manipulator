@@ -1,6 +1,8 @@
-﻿@using Microsoft.AspNetCore.Mvc.Localization
+﻿@using Manipulator.Models
+@using Microsoft.AspNetCore.Mvc.Localization
+@using Microsoft.Extensions.Options
 @inject IViewLocalizer Localizer
-
+@inject IOptions<AppSettings> _appSettings
 <section id="contact" class="contact">
     <div class="container" data-aos="fade-up">
         <div class="section-title">
@@ -13,12 +15,12 @@
                     <div class="location">
                         <i class="bi bi-envelope"></i>
                         <h4>@Localizer["Email"]:</h4>
-                        <p>kh.trans@gmail.com</p>
+                        <p>@_appSettings.Value.Email</p>
                     </div>
                     <div class="phone">
                         <i class="bi bi-phone"></i>
                         <h4>@Localizer["Phone"]:</h4>
-                        <p>+380 50 973 56 05</p>
+                        <p>@_appSettings.Value.PhoneUMC</p>
                     </div>
                 </div>
             </div>

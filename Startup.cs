@@ -1,4 +1,5 @@
 using Manipulator.CustomResourceManager;
+using Manipulator.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -18,7 +19,8 @@ namespace Manipulator
 
         public void ConfigureServices(IServiceCollection services)
         {
-
+            var identitySettingsSection = Configuration.GetSection(nameof(AppSettings));
+            services.Configure<AppSettings>(identitySettingsSection);
             services.AddLocalization(options =>
             {
                 options.ResourcesPath = "Resources";
