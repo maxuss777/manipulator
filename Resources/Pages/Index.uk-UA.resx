@@ -126,4 +126,7 @@
   <data name="Need advice?" xml:space="preserve">
     <value>Потрібна порада?</value>
   </data>
+  <data name="Sorry, something went wrong. Could you please try again later?" xml:space="preserve">
+    <value>Вибачте, щось пішло не так. Спробуйте будь ласка пізніше?</value>
+  </data>
 </root>

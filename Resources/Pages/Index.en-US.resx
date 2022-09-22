@@ -126,4 +126,7 @@
   <data name="Need advice?" xml:space="preserve">
     <value>Need advice?</value>
   </data>
+  <data name="Sorry, something went wrong. Could you please try again later?" xml:space="preserve">
+    <value>Sorry, something went wrong. Could you please try again later?</value>
+  </data>
 </root>

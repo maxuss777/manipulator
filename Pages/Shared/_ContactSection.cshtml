@@ -3,6 +3,7 @@
 @using Microsoft.Extensions.Options
 @inject IViewLocalizer Localizer
 @inject IOptions<AppSettings> _appSettings
+
 <section id="contact" class="contact">
     <div class="container" data-aos="fade-up">
         <div class="section-title">
@@ -25,7 +26,8 @@
                 </div>
             </div>
             <div class="col-lg-8 mt-5 mt-lg-0">
-                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <form action="" id="contactUsForm" class="php-email-form">
+                    @Html.AntiForgeryToken()
                     <div class="row">
                         <div class="col-md-6 form-group">
                             <input type="text" name="name" class="form-control" id="name" placeholder="@Localizer["Name"]" required>
@@ -51,3 +53,4 @@
         </div>
     </div>
 </section>
+
