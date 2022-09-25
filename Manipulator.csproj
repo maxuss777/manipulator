@@ -40,10 +40,10 @@
     <EmbeddedResource Update="Resources\Pages\Shared\_AboutSection.uk-UA.resx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Update="Resources\Pages\Index.en-US.resx">
+    <EmbeddedResource Update="Resources\Pages\IndexPageModel.en-US.resx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Update="Resources\Pages\Index.uk-UA.resx">
+    <EmbeddedResource Update="Resources\Pages\IndexPageModel.uk-UA.resx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Update="Resources\Pages\Shared\_Layout.en-US.resx">

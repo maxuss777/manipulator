@@ -123,10 +123,13 @@
   <data name="Ask a question to a professional and get an answer as soon as possible" xml:space="preserve">
     <value>Ask a question to a professional and get an answer as soon as possible.</value>
   </data>
+  <data name="EmailSendError" xml:space="preserve">
+    <value>Sorry, something went wrong. Could you please try again later?</value>
+  </data>
+  <data name="EmailSendSuccess" xml:space="preserve">
+    <value>Your message has been sent. Thank you!</value>
+  </data>
   <data name="Need advice?" xml:space="preserve">
     <value>Need advice?</value>
-  </data>
-  <data name="Sorry, something went wrong. Could you please try again later?" xml:space="preserve">
-    <value>Sorry, something went wrong. Could you please try again later?</value>
   </data>
 </root>

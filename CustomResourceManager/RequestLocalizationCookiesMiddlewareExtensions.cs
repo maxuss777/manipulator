@@ -39,7 +39,6 @@ namespace Manipulator.CustomResourceManager
 
                 if (feature != null)
                 {
-                    // remember culture across request
                     context.Response
                         .Cookies
                         .Append(

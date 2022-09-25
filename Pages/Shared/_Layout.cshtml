@@ -111,12 +111,14 @@
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
     <script>
-
+        var successMessageEl = $('.sent-message');
+        var errorMessageEl = $('.error-message');
         $(function () {
             var loader = $('.loading');
-
             $("#contactUsForm").submit(function (event) {
                 event.preventDefault();
+                successMessageEl.css('display', 'none');
+                errorMessageEl.css('display', 'none');
                 loader.css("display", "block");
                 $.ajax({
                     type: "POST",
@@ -125,10 +127,7 @@
                     dataType: "json",
                     complete: function (data) {
                         loader.css("display", "none");
-                        if (data.responseJSON === undefined) {
-                            alert("responseJSON === undefined");
-                        }
-                        else if (data.responseJSON.IsSuccess) {
+                        if (data.responseJSON && data.responseJSON.IsSuccess) {
                             successAction(data.responseJSON);
                         }
                         else {
@@ -140,11 +139,13 @@
         });
 
         function successAction(data) {
-            alert("success -" + data);
+            successMessageEl.text(data.message);
+            successMessageEl.css('display', 'block');
         }
 
         function errorAction(data) {
-            alert("fail -" + data);
+            errorMessageEl.text(data.message);
+            errorMessageEl.css('display', 'block');
         }
     </script>
 </body>
