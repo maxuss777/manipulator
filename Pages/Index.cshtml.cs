@@ -1,4 +1,5 @@
-﻿using System.Net.Mail;
+﻿using System.Net;
+using System.Net.Mail;
 using System.Threading.Tasks;
 using Manipulator.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -35,24 +36,34 @@ namespace Manipulator.Pages
             {
                 using (MailMessage mail = new MailMessage())
                 {
-                    mail.To.Add(_appSettings.Email);
                     mail.From = new MailAddress(Model.Email);
+                    mail.To.Add(_appSettings.Email);
                     mail.Subject = Model.Subject;
-                    mail.Body = Model.Message;
+                    mail.Body = GetBody();
                     mail.IsBodyHtml = true;
-                    SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587);
-                    smtp.EnableSsl = true;
-                    smtp.UseDefaultCredentials = true;
-                    smtp.Credentials = new System.Net.NetworkCredential("kulaistra.m@outlook.com", "kul!Q@W#Eaistra");
-                    smtp.Send(mail);
+
+                    using (SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587))
+                    {
+                        smtp.Credentials = new NetworkCredential(_appSettings.SenderEmail, _appSettings.SenderPass);
+                        smtp.EnableSsl = true;
+                        smtp.Send(mail);
+                    }
                 }
 
                 return AjaxResponse.GetSuccessResponse(_localizer["EmailSendSuccess"].Value);
             }
             catch
             {
-                return AjaxResponse.GetSuccessResponse(_localizer["EmailSendError"].Value);
+                return AjaxResponse.GetErrorResponse(_localizer["EmailSendError"].Value);
             }
+        }
+
+        private string GetBody()
+        {
+            return
+            $"<b>{_localizer["Name"]}</b>: {Model.Name}<br> " +
+            $"<b>{_localizer["Email"]}</b>: {Model.Email}<br> " +
+            $"<b>{_localizer["Message"]}</b>: {Model.Message}";
         }
     }
 

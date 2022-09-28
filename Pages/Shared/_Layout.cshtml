@@ -101,7 +101,7 @@
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
     <!-- Vendor JS Files -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -110,43 +110,5 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
-    <script>
-        var successMessageEl = $('.sent-message');
-        var errorMessageEl = $('.error-message');
-        $(function () {
-            var loader = $('.loading');
-            $("#contactUsForm").submit(function (event) {
-                event.preventDefault();
-                successMessageEl.css('display', 'none');
-                errorMessageEl.css('display', 'none');
-                loader.css("display", "block");
-                $.ajax({
-                    type: "POST",
-                    url: "?handler=ContactUs",
-                    data: $(this).serialize(),
-                    dataType: "json",
-                    complete: function (data) {
-                        loader.css("display", "none");
-                        if (data.responseJSON && data.responseJSON.IsSuccess) {
-                            successAction(data.responseJSON);
-                        }
-                        else {
-                            errorAction(data.responseJSON);
-                        }
-                    }
-                });
-            });
-        });
-
-        function successAction(data) {
-            successMessageEl.text(data.message);
-            successMessageEl.css('display', 'block');
-        }
-
-        function errorAction(data) {
-            errorMessageEl.text(data.message);
-            errorMessageEl.css('display', 'block');
-        }
-    </script>
 </body>
 </html>
