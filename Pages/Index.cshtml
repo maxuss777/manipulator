@@ -1,7 +1,7 @@
 ﻿@page "{handler?}"
 @model IndexPageModel
-@using Microsoft.AspNetCore.Mvc.Localization
-@inject IViewLocalizer Localizer
+@using Microsoft.Extensions.Localization
+@inject IStringLocalizer<SharedResources> Localizer
 
 <main id="main">
     <partial name="_AboutSection" />

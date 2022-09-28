@@ -35,7 +35,7 @@ namespace Manipulator
 
             services
                 .AddRazorPages()
-                .AddViewLocalization();
+                .AddDataAnnotationsLocalization(options => options.DataAnnotationLocalizerProvider = (t, f) => f.Create(typeof(SharedResources)));
 
             services.AddScoped<RequestLocalizationCookiesMiddleware>();
         }

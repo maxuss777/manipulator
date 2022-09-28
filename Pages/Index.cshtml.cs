@@ -13,10 +13,13 @@ namespace Manipulator.Pages
     public class IndexPageModel : PageModel
     {
         private readonly ILogger<IndexPageModel> _logger;
-        private readonly IStringLocalizer<IndexPageModel> _localizer;
+        private readonly IStringLocalizer<SharedResources> _localizer;
         private readonly AppSettings _appSettings;
 
-        public IndexPageModel(ILogger<IndexPageModel> logger, IStringLocalizer<IndexPageModel> localizer, IOptions<AppSettings> appSettings)
+        public IndexPageModel(
+            ILogger<IndexPageModel> logger,
+            IStringLocalizer<SharedResources> localizer,
+            IOptions<AppSettings> appSettings)
         {
             _logger = logger;
             _localizer = localizer;
@@ -46,7 +49,8 @@ namespace Manipulator.Pages
                     {
                         smtp.Credentials = new NetworkCredential(_appSettings.SenderEmail, _appSettings.SenderPass);
                         smtp.EnableSsl = true;
-                        smtp.Send(mail);
+
+                        await smtp.SendMailAsync(mail);
                     }
                 }
 

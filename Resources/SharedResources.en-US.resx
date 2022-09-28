@@ -117,14 +117,86 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="About Us" xml:space="preserve">
+    <value>About Us</value>
+  </data>
   <data name="Accuracy in work. You can easily cope with any tasks. If necessary, experienced drivers of our company will provide you with assistance." xml:space="preserve">
     <value>Accuracy in work. You can easily cope with any tasks. If necessary, experienced drivers of our company will provide you with assistance.</value>
+  </data>
+  <data name="Any form of payment" xml:space="preserve">
+    <value>Any form of payment</value>
+  </data>
+  <data name="Ask a question" xml:space="preserve">
+    <value>Ask a question</value>
+  </data>
+  <data name="Ask a question to a professional and get an answer as soon as possible" xml:space="preserve">
+    <value>Ask a question to a professional and get an answer as soon as possible.</value>
+  </data>
+  <data name="Body length" xml:space="preserve">
+    <value>Body length - {0} meters</value>
+  </data>
+  <data name="Contact us" xml:space="preserve">
+    <value>Contact us</value>
+  </data>
+  <data name="Contacts" xml:space="preserve">
+    <value>Contacts</value>
+  </data>
+  <data name="Digging depth" xml:space="preserve">
+    <value>Digging depth {0} meters</value>
   </data>
   <data name="Ease of work. The proposed manipulators do not require complex installation. Contact us if you want all tasks to be solved quickly and efficiently." xml:space="preserve">
     <value>Ease of work. The proposed manipulators do not require complex installation. Contact us if you want all tasks to be solved quickly and efficiently.</value>
   </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="EmailSendError" xml:space="preserve">
+    <value>Sorry, something went wrong. Could you please try again later?</value>
+  </data>
+  <data name="EmailSendSuccess" xml:space="preserve">
+    <value>Your message has been sent. Thank you!</value>
+  </data>
+  <data name="Equipment" xml:space="preserve">
+    <value>Equipment</value>
+  </data>
+  <data name="Flexible discounts system" xml:space="preserve">
+    <value>Flexible discounts system</value>
+  </data>
+  <data name="High qualified staff" xml:space="preserve">
+    <value>High qualified staff</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Loading</value>
+  </data>
   <data name="Looking for heavy equipment in Kharkiv?" xml:space="preserve">
     <value>Looking for heavy equipment in Kharkiv?</value>
+  </data>
+  <data name="Manipulator title" xml:space="preserve">
+    <value>Manipulator {0} tons</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="Mini Tractor" xml:space="preserve">
+    <value>Mini Tractor</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Need advice?" xml:space="preserve">
+    <value>Need advice?</value>
+  </data>
+  <data name="Our Equipment" xml:space="preserve">
+    <value>Our Equipment</value>
+  </data>
+  <data name="Our Services" xml:space="preserve">
+    <value>Our Services</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Phone</value>
   </data>
   <data name="Renting equipment with a manipulator from our company is profitable and convenient. Renting this equipment will help you save money and time." xml:space="preserve">
     <value>Renting equipment with a manipulator from our company is profitable and convenient. Renting this equipment will help you save money and time.</value>
@@ -132,7 +204,28 @@
   <data name="Safety of use. The machine with a manipulator, which can be rented now, is completely ready for operation. We regularly carry out technical maintenance of the entire fleet, protecting you from injuries." xml:space="preserve">
     <value>Safety of use. The machine with a manipulator, which can be rented now, is completely ready for operation. We regularly carry out technical maintenance of the entire fleet, protecting you from injuries.</value>
   </data>
+  <data name="Send" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="Services" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="Smart solutions with" xml:space="preserve">
+    <value>Smart solutions with</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="The carrying capacity of the board is" xml:space="preserve">
+    <value>The carrying capacity of the board is {0} tons</value>
+  </data>
+  <data name="We are a team of talented carriers" xml:space="preserve">
+    <value>We are a team of talented carriers.</value>
+  </data>
   <data name="We offer popular equipment of foreign manufacturers, which is characterized by high reliability and good operation for a long time." xml:space="preserve">
     <value>We offer popular equipment of foreign manufacturers, which is characterized by high reliability and good operation for a long time.</value>
+  </data>
+  <data name="We work without days off" xml:space="preserve">
+    <value>We work without days off</value>
   </data>
 </root>
