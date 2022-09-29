@@ -117,6 +117,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&lt;strong&gt;Clients are satisfied&lt;/strong&gt; with cooperation with us." xml:space="preserve">
+    <value>&lt;strong&gt;Clients are satisfied&lt;/strong&gt; with cooperation with us.</value>
+  </data>
+  <data name="&lt;strong&gt;Projects&lt;/strong&gt; completed in advance or on time." xml:space="preserve">
+    <value>&lt;strong&gt;Projects&lt;/strong&gt; completed in advance or on time.</value>
+  </data>
+  <data name="&lt;strong&gt;Years&lt;/strong&gt; we have been working for you for." xml:space="preserve">
+    <value>&lt;strong&gt;Years&lt;/strong&gt; we have been working for you.</value>
+  </data>
   <data name="About Us" xml:space="preserve">
     <value>About Us</value>
   </data>
@@ -177,6 +186,9 @@
   <data name="Manipulator title" xml:space="preserve">
     <value>Manipulator {0} tons</value>
   </data>
+  <data name="Many years of experience and incredible clients" xml:space="preserve">
+    <value>Many years of experience and incredible clients</value>
+  </data>
   <data name="Message" xml:space="preserve">
     <value>Message</value>
   </data>
@@ -192,11 +204,17 @@
   <data name="Our Equipment" xml:space="preserve">
     <value>Our Equipment</value>
   </data>
+  <data name="Our portfolio" xml:space="preserve">
+    <value>Our portfolio</value>
+  </data>
   <data name="Our Services" xml:space="preserve">
     <value>Our Services</value>
   </data>
   <data name="Phone" xml:space="preserve">
     <value>Phone</value>
+  </data>
+  <data name="Portfolio" xml:space="preserve">
+    <value>Portfolio</value>
   </data>
   <data name="Renting equipment with a manipulator from our company is profitable and convenient. Renting this equipment will help you save money and time." xml:space="preserve">
     <value>Renting equipment with a manipulator from our company is profitable and convenient. Renting this equipment will help you save money and time.</value>
@@ -221,6 +239,9 @@
   </data>
   <data name="We are a team of talented carriers" xml:space="preserve">
     <value>We are a team of talented carriers.</value>
+  </data>
+  <data name="We are grateful to every client for their cooperation with us, and we express it in hard work and full commitment" xml:space="preserve">
+    <value>We are grateful to every client for their cooperation with us, and we express it in hard work and full commitment</value>
   </data>
   <data name="We offer popular equipment of foreign manufacturers, which is characterized by high reliability and good operation for a long time." xml:space="preserve">
     <value>We offer popular equipment of foreign manufacturers, which is characterized by high reliability and good operation for a long time.</value>

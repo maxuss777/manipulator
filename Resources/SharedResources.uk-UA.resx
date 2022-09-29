@@ -117,6 +117,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&lt;strong&gt;Clients are satisfied&lt;/strong&gt; with cooperation with us." xml:space="preserve">
+    <value>&lt;strong&gt;Клієнтів задоволені&lt;/strong&gt; співпраці з нами.</value>
+  </data>
+  <data name="&lt;strong&gt;Projects&lt;/strong&gt; completed in advance or on time." xml:space="preserve">
+    <value>&lt;strong&gt;Проектів &lt;/strong&gt; завершених заздалегідь або у строк.</value>
+  </data>
+  <data name="&lt;strong&gt;Years&lt;/strong&gt; we have been working for you for." xml:space="preserve">
+    <value>&lt;strong&gt;Років&lt;/strong&gt; ми стараємось для вас.</value>
+  </data>
   <data name="About Us" xml:space="preserve">
     <value>Прос нас</value>
   </data>
@@ -177,6 +186,9 @@
   <data name="Manipulator title" xml:space="preserve">
     <value>Маніпулятор {0} тонн</value>
   </data>
+  <data name="Many years of experience and incredible clients" xml:space="preserve">
+    <value>Багаторічний досвід і неймовірні клієнти</value>
+  </data>
   <data name="Message" xml:space="preserve">
     <value>Повідомлення</value>
   </data>
@@ -192,11 +204,17 @@
   <data name="Our Equipment" xml:space="preserve">
     <value>Наша Техніка</value>
   </data>
+  <data name="Our portfolio" xml:space="preserve">
+    <value>Наше портфоліо</value>
+  </data>
   <data name="Our Services" xml:space="preserve">
     <value>Наші послуги</value>
   </data>
   <data name="Phone" xml:space="preserve">
     <value>Телефон</value>
+  </data>
+  <data name="Portfolio" xml:space="preserve">
+    <value>Портфоліо</value>
   </data>
   <data name="Renting equipment with a manipulator from our company is profitable and convenient. Renting this equipment will help you save money and time." xml:space="preserve">
     <value>Оренда техніки з маніпулятором від нашої компанії – це вигідно та зручно. Оренда даної техніки допоможе Вам заощадити гроші та час.</value>
@@ -221,6 +239,9 @@
   </data>
   <data name="We are a team of talented carriers" xml:space="preserve">
     <value>Ми команда талановитих перевезників.</value>
+  </data>
+  <data name="We are grateful to every client for their cooperation with us, and we express it in hard work and full commitment" xml:space="preserve">
+    <value>Ми вдячні кожному клієнту за співпрацю з нами, і виражаємо це у наполегливій праці та повній віддачі</value>
   </data>
   <data name="We offer popular equipment of foreign manufacturers, which is characterized by high reliability and good operation for a long time." xml:space="preserve">
     <value>Ми пропонуємо популярну техніку іноземних виробників, яка відрізняється високою надійністю та справною роботою протягом тривалого часу.</value>
