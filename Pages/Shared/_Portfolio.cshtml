@@ -1,13 +1,31 @@
 ﻿@using Microsoft.Extensions.Localization
 @inject IStringLocalizer<SharedResources> Localizer
 
-<section id="portfolio" class="services">
-    <div class="container" data-aos="fade-up">
+<section id="portfolio" class="portfolio">
+    <div class="container">
+
         <div class="section-title">
-            <h2>@Localizer["Portfolio"]</h2>
-            <p>@Localizer["Our portfolio"]</p>
+           <h2>@Localizer["Portfolio"]</h2>
+           <p>@Localizer["Our portfolio"]</p>
         </div>
-        <div class="row">
+
+        <div class="portfolio-slider swiper">
+            <div class="swiper-wrapper align-items-center">
+                <div class="swiper-slide"><a href="assets/img/portfolio/1.png" class="glightbox"><img src="assets/img/portfolio/1.png" class="img-fluid" alt=""></a></div>
+                <div class="swiper-slide"><a href="assets/img/portfolio/2.png" class="glightbox"><img src="assets/img/portfolio/2.png" class="img-fluid" alt=""></a></div>
+                <div class="swiper-slide"><a href="assets/img/portfolio/3.png" class="glightbox"><img src="assets/img/portfolio/3.png" class="img-fluid" alt=""></a></div>
+                <div class="swiper-slide"><a href="assets/img/portfolio/4.png" class="glightbox"><img src="assets/img/portfolio/4.png" class="img-fluid" alt=""></a></div>
+                <div class="swiper-slide"><a href="assets/img/portfolio/5.png" class="glightbox"><img src="assets/img/portfolio/5.png" class="img-fluid" alt=""></a></div>
+                <div class="swiper-slide"><a href="assets/img/portfolio/6.png" class="glightbox"><img src="assets/img/portfolio/6.png" class="img-fluid" alt=""></a></div>
+                <div class="swiper-slide"><a href="assets/img/portfolio/7.png" class="glightbox"><img src="assets/img/portfolio/7.png" class="img-fluid" alt=""></a></div>
+                <div class="swiper-slide"><a href="assets/img/portfolio/8.png" class="glightbox"><img src="assets/img/portfolio/8.png" class="img-fluid" alt=""></a></div>
+                <div class="swiper-slide"><a href="assets/img/portfolio/9.png" class="glightbox"><img src="assets/img/portfolio/9.png" class="img-fluid" alt=""></a></div>
+                <div class="swiper-slide"><a href="assets/img/portfolio/10.png" class="glightbox"><img src="assets/img/portfolio/10.png" class="img-fluid" alt=""></a></div>
+                <div class="swiper-slide"><a href="assets/img/portfolio/11.png" class="glightbox"><img src="assets/img/portfolio/11.png" class="img-fluid" alt=""></a></div>
+                <div class="swiper-slide"><a href="assets/img/portfolio/12.png" class="glightbox"><img src="assets/img/portfolio/12.png" class="img-fluid" alt=""></a></div>
+            </div>
+            <div class="swiper-pagination"></div>
         </div>
+
     </div>
 </section>
