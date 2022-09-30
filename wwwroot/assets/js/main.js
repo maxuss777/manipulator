@@ -239,4 +239,11 @@
         errorMessageEl.css('display', 'block');
     }
 
+/**
+ * Initiate glightbox 
+ */
+const glightbox = GLightbox({
+        selector: '.glightbox'
+});
+
 })()
